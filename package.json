@@ -18,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/vang007/team_profile_generator/issues"
   },
-  "homepage": "https://github.com/vang007/team_profile_generator#readme"
+  "homepage": "https://github.com/vang007/team_profile_generator#readme",
+  "dependencies": {
+    "require": "^0.4.4"
+  },
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
 }
