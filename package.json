@@ -7,11 +7,11 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vang007/team_profile_generator.git"
+    "url": "https://github.com/vang007/team_profile_generator.git"
   },
   "author": "Sua Vang",
   "license": "ISC",

@@ -1,18 +1,9 @@
-const Employee = require('../Employee');
+const Employee = require('../lib/Employee');
 const employee = new Employee('name', 'id', 'email');
 
 test('testing functionality of object', () => {
 
-  expect(employee.name).toBe('health');
-  expect(employee.id).tobe(expect.any(Number));
-  expect(employee.email).toBe('health');
-
-});
-
-test('creates a random potion object', () => {
-  const potion = new Potion();
-
-  expect(potion.name).toEqual(expect.any(String));
-  expect(potion.name.length).toBeGreaterThan(0);
-  expect(potion.value).toEqual(expect.any(Number));
-});
+  expect(employee.name).toBe("La Ziest Guy");
+  expect(employee.id).toBe("34216");
+  expect(employee.email).toBe("catchin_Z'sss");
+})
